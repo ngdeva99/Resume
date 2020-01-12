@@ -1,0 +1,176 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.3in}
+\addtolength{\evensidemargin}{-0.3in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.4in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{}{\Large Devanathan N G} & Email : \href{mailto:ngdeva99@gmail.com}{ngdeva99@gmail.com}\\
+  \href{https://github.com/ngdeva99}{Github}{ - }\href{https://www.linkedin.com/in/devanathan-n-g-83442115b/}{Linkedin}& Mobile : +91 7299930321 
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SSN College of Engineering, Anna University}{Tamil Nadu, India}
+      {Bachelor of Technology in Information Technology;  GPA: 8.72/10.0}{Sept. 2017 -- }
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Nokia Solutions and Networks Pvt Ltd.}{Chennai, India}
+    {Data Science Intern}{July 2019 -- Present}
+    \resumeItemListStart
+      \resumeItem{Video Analytics for Fault Recognition}
+        {Worked on large scale real time data for object detection and recognition to model the identify the faults in the products such as absence of screws in the manufacturing product and reports it dynamically. \bf Link:}\href{https://github.com/ngdeva99/Fault_Detection_FBBC_Assembly}{https://github.com/ngdeva99/Fault_Detection_FBBC_Assembly}\\
+        {\bf Technologies Used :} {Tensorflow Object Detection API, OpenCV}
+        
+        
+        \resumeItem{Sequence Tracking Mechanism for Industrial Screwing Process}
+        {Worked on the industrial level problem of product defects due to mismatch in the screwing process. Pitched in and worked on an ML based solution by tracking the sequence of the screwing process using Computer Vision and reports for the mismatch dynamically. \bf Link:}\href{https://github.com/ngdeva99/Real-time-Multi-Digit-Detection-}{https://github.com/ngdeva99/Real-time-Multi-Digit-Detection-}\\
+        {\bf Technologies Used :} {MNIST Dataset, OpenCV, scikit-learn, Keras,PyQT5}
+        
+    \resumeItemListEnd
+    
+ 
+
+  \resumeSubHeadingListEnd
+
+%--------Research and Publications--------
+\section{Research}
+  \resumeSubHeadingListStart
+    \resumeSubItem
+      {Alert system for Car Hacking}{Project proposal accepted to be funded by the college on Jan 2019. Research work currently in progress.}
+      
+    \resumeSubItem
+      {Assistive Technology for Parkinson and Alzimer affected people}{Research and project work in progress. Funded by the State Govt. of Tamil Nadu,India.}  
+  \resumeSubHeadingListEnd
+  
+  
+%-----------PROJECTS-----------------
+\section{Projects}
+ \resumeSubHeadingListStart
+  	\resumeSubItem{CleanCare}
+      {An Automated Washroom Management System which can be useful for sensitive places like Hospitals.
+      \href{https://github.com/ngdeva99/CleanCARE}{\bf Link: }{https://github.com/ngdeva99/CleanCARE}}
+  \resumeSubItem{PocDoc}
+      {A healthcare application that brings right care right at home. Developed using Android and Tensorflow. \href{https://github.com/ngdeva99/PocDoc}{\bf Link: }{https://github.com/ngdeva99/PocDoc}}
+    \resumeSubItem{ShoppinEasy}
+     {A healthcare application that brings right care right at home. Developed using Android and Tensorflow. \href{https://github.com/ngdeva99/ShoppingEASY}{\bf Link: }{https://github.com/ngdeva99/ShoppingEASY}}
+      \resumeSubItem{ATPAD}
+      {A wearable device aimed at providing an assistive technology to Parkinson and Alzimer affected people.\href{https://github.com/ngdeva99/ATPAD}{\bf Link: }{https://github.com/ngdeva99/ATPAD}}
+    \resumeSubItem{HackAlert}
+      {Alert system for Car Hacking. (Ongoing)\href{https://github.com/ngdeva99/Automotive-Hacking}{\bf Link: }{https://github.com/ngdeva99/Automotive-Hacking}}
+
+  \resumeSubHeadingListEnd
+
+%--------Achievements------------
+\section{Achievements and Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubItem
+  {Runner Up of {\bf LORD OF THE CODES} hackathon hosted by Ramco Systems}{January 2020}
+    \resumeSubItem   
+  {Top 5 of the 50+ Shortlisted Teams from India in CodeBreak 1.0 Hackathon held at Pune. Organized by Devfolio}{December 2019}
+    \resumeSubItem
+  {Winner of Smart India Hackathon, MHRD, Govt of India, held at NIT Surathkal}{March 2019}
+   \resumeSubItem
+    {Runner, Procode Programming Contest}{February 2019}
+    \resumeSubItem
+  {Merit Scholarship, SSN College of Engineering}{December 2018}
+    \resumeSubItem
+    {Winner, Procode Programming Contest}{November 2018}
+    \resumeSubItem
+    {Certification in Machine Learning, Coursera}{June 2019}
+    \resumeSubItem
+    {Certification in Neural Networks and Deep Learning, Coursera}{July 2019}
+    \resumeSubItem
+    {Certification in Deep Learning, Udacity}{November 2019}
+    \resumeSubItem
+    {Certification in Python for Computer Vision with OpenCV and DeepLearning, Udemy}{November 2019}
+  \resumeSubHeadingListEnd
+
+%--------------------------------------------
+%--------PROGRAMMING SKILLS------------
+\section{Skills and Other Interests}
+  \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: C++, Java, Python, C, SQL }
+      }
+      \item{
+       \textbf{Frameworks and Technologies}{: TensorFlow, Keras, Android Studio, Node.js }
+    }
+    
+    \item{
+       \textbf{Extra Curriculum}{: Professional Cricketer, Carnatic Violinist }
+    }
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}

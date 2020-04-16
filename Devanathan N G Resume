@@ -87,7 +87,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
     {Nokia Solutions and Networks Pvt Ltd.}{Chennai, India}
-    {Data Science Intern}{July 2019 -- Present}
+    {Data Science Intern}{July 2019 -- December 2019}
     \resumeItemListStart
       \resumeItem{Video Analytics for Fault Recognition}
         {Worked on large scale real time data for object detection and recognition to model the identify the faults in the products such as absence of screws in the manufacturing product and reports it dynamically. \bf Link:}\href{https://github.com/ngdeva99/Fault_Detection_FBBC_Assembly}{https://github.com/ngdeva99/Fault_Detection_FBBC_Assembly}\\
@@ -124,7 +124,7 @@
   \resumeSubItem{PocDoc}
       {A healthcare application that brings right care right at home. Developed using Android and Tensorflow. \href{https://github.com/ngdeva99/PocDoc}{\bf Link: }{https://github.com/ngdeva99/PocDoc}}
     \resumeSubItem{ShoppinEasy}
-     {A healthcare application that brings right care right at home. Developed using Android and Tensorflow. \href{https://github.com/ngdeva99/ShoppingEASY}{\bf Link: }{https://github.com/ngdeva99/ShoppingEASY}}
+     {An application offering frictionless shopping experience for the customers. Developed using Android and Tensorflow. \href{https://github.com/ngdeva99/ShoppingEASY}{\bf Link: }{https://github.com/ngdeva99/ShoppingEASY}}
       \resumeSubItem{ATPAD}
       {A wearable device aimed at providing an assistive technology to Parkinson and Alzimer affected people.\href{https://github.com/ngdeva99/ATPAD}{\bf Link: }{https://github.com/ngdeva99/ATPAD}}
     \resumeSubItem{HackAlert}

@@ -77,7 +77,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {SSN College of Engineering, Anna University}{Chennai,Tamil Nadu, India}
-      {Bachelor of Technology in Information Technology;  GPA: 8.64/10.0}{Sept. 2017 -- }
+      {Bachelor of Technology in Information Technology;  GPA: 8.80/10.0}{Sept. 2017 -- }
   \resumeSubHeadingListEnd
 
 
@@ -90,12 +90,12 @@
     \resumeItemListStart
       \resumeItem{\href{https://github.com/ngdeva99/Fault_Detection_FBBC_Assembly}{Video Analytics for Fault Recognition}}
         
-        {Played a major role in automating the final check and quality assurance line systems by Working on large scale real time data for object detection and recognition to model the identify the faults in the products such as absence of screws in the manufacturing products and reports it dynamically.}\\
+        {Played a major role in automating the final check and quality assurance line systems by Working on large scale real time data for object detection and recognition to model the identify the faults in the products such as absence of screws in the manufacturing products and report it dynamically.}\\
         {\bf Technologies Used :} {Tensorflow Object Detection API, OpenCV}
         
         
         \resumeItem{\href{https://github.com/ngdeva99/Real-time-Multi-Digit-Detection-}{Sequence Tracking Mechanism for Industrial Screwing Process}}
-        {Successfully acheived the industrial level problem of Sequence tracking mechanism. The solution fot the product defects due to mismatch of the sequence of the screwing process was pitched in with an ML based solution by tracking the sequence of the screwing process using Computer Vision and an user friendly reporting mechanism for the mismatch was created dynamically.}\\
+        {Successfully acheived the industrial level problem of Sequence tracking mechanism. The solution for the product defects due to mismatch of the sequence of the screwing process was pitched in with an ML based solution by tracking the sequence of the screwing process using Computer Vision and an user friendly reporting mechanism for the mismatch was created dynamically.}\\
         {\bf Technologies Used :} {MNIST Dataset, OpenCV, Keras,PyQT5}
         
     \resumeItemListEnd
@@ -106,10 +106,10 @@
 \section{Research}
   \resumeSubHeadingListStart
     \resumeSubItem
-      {Alert system for Car Hacking}{Project proposal accepted to be funded by the college on Jan 2019. Research work currently in progress.}
+      {Alert system for Car Hacking}{An alert system which can help to prevent a car from theft from the wireless attacking methods used by the hackers.Project proposal accepted to be funded by the college on Jan 2019. Research work currently in progress.}
       
     \resumeSubItem
-      {Assistive Technology for Parkinson and Alzimer affected people}{Research and project work in progress. Funded by the State Govt. of Tamil Nadu,India.}  
+      {Assistive Technology for Parkinson and Alzimer affected people}{Building a wearable device that acts as an aid for the patients.Research and project work in progress. Funded by the {\bf State Govt. of Tamil Nadu,India.}}  
       
   \resumeSubHeadingListEnd
   
@@ -125,8 +125,8 @@
     \resumeSubItem{\href{https://github.com/ngdeva99/ShoppingEASY}{ShoppingEasy}}
      {An application offering frictionless shopping experience for the customers. Developed using Android and Tensorflow.}
      
-         \resumeSubItem{MottaBoss}
-     {A speech identification system built to identify the person behind the speech using Recurrence Plots and CNN.}
+         \resumeSubItem{\href{https://github.com/ngdeva99/MottaBOSS}MottaBoss}
+     {A speech identification system built to identify the person from speech using Recurrence Plots and CNN.}
       
     \resumeSubItem{CheekaSpeaks}
       {An automatic cricket commentary generator system for Tamil and English. (Ongoing)}
@@ -139,24 +139,25 @@
 \section{Achievements}
   \resumeSubHeadingListStart
     \resumeSubItem{}
-  { Runner Up of {\bf Lord Of The Codes }corporate hackathon hosted by Ramco Systems.}{ January 2020}
+  { {\bf Runner Up} of  Lord Of The Codes corporate hackathon hosted by Ramco Systems.}{ January 2020}
     \resumeSubItem{}  
-  {Special Mention Award for the Innovative ideas for the social cause in the largest {\bf All India level Hackathon} event out of the {\bf 250+} Shortlisted Teams out of {\bf 2000+} teams held at NIT Surathkal.}{ January 2020}
+  {{\bf Special Mention Award} for the Innovative ideas for the social cause in the largest {\bf All India level Hackathon}  event out of the {\bf 250+} Shortlisted Teams out of {\bf 2000+} teams.}{ January 2020}
   \resumeSubItem{}
-  {Top {\bf 5} of the 50+ Shortlisted Teams from India in CodeBreak 1.0 Hackathon held at Pune.}{  December 2019}
+  {{\bf Top 5} of the 50+ Shortlisted Teams from India in CodeBreak 1.0 Hackathon held at Pune.}{  December 2019}
   \resumeSubItem{}
-  {Winner of { \bf Smart India Hackathon, MHRD, Govt of India,} held at NIT Surathkal}{ March 2019}
+  {{\bf Winner of  Smart India Hackathon, MHRD, Govt of India,} held at NIT Surathkal}{ March 2019}
    \resumeSubItem{}
     {{\bf Runner}, Procode Programming Contest}{  February 2019}
    \resumeSubItem{}
-  {Merit Scholarship for Academic excellence, SSN College of Engineering}{  December 2018}
+  {{\bf Merit Scholarship} for Academic excellence, SSN College of Engineering}{  December 2018}
     \resumeSubItem{}
     {{\bf Winner}, Procode Programming Contest}{  November 2018}
     \resumeSubItem{}
     {{\bf Winner}, Math Olymipad conducted by Sathyabama University}{  March 2018}
     \resumeSubItem{}
-    {Award for consistent performance in Computer Science, Class 12}{  May 2017}
-    \resumeSubItem{}{Best Cricketer of the year 2016-17}{  May 2017}
+    {{\bf Award} for consistent performance in Computer Science, Class 12}{  May 2017}
+    \resumeSubItem{}{{\bf Best Cricketer} of the year 2016-17}{  May 2017}
+    \resumeSubItem{}{{\bf Rolling Shield} for Best All Round Student of the school excelling in Sports and Academics.}{June 2015}
   \resumeSubHeadingListEnd
 
 %--------------------------------------------
@@ -164,9 +165,9 @@
 \section{Skills and Interests}
   \resumeSubHeadingListStart
    \resumeSubItem{Technical Skills}{
-     {Python,C++,Java,C,SQL,Deep Learning,Computer Vision,Android Studio,IoT,AR}
+     {Python,C++,Java,C,SQL,Deep Learning,Computer Vision,Android Studio,IoT}
       }
-    \resumeSubItem{Interests}{Deep Learning, Computer Vision, Software Development, Hackathons,AR Core,Competitive Programming}
+    \resumeSubItem{Interests}{Deep Learning, Computer Vision, Software Development,Hackathons,AR Core,Competitive Programming}
     
     \resumeSubItem{Extra Curriculum}{Professional Cricketer,Footballer and an Athlete, Upcoming Carnatic Violinist.}
   \resumeSubHeadingListEnd

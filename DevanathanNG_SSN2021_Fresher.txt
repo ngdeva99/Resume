@@ -1,0 +1,114 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Devanathan N G} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91-7299930321 \\ Chennai, TN} 
+\address{\href{mailto:devanathanng17021@it.ssn.edu.in}{devanathanng17021@it.ssn.edu.in} \\ \href{https://www.linkedin.com/in/devanathan-n-g-83442115b/}{LinkedIn} \\ \href{https://github.com/ngdeva99}{GitHub} \\ \href{http://ngdeva99.github.io/}{Portfolio}\\ \href{https://leetcode.com/devanathanng17021}{Leetcode}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{rSection}{OBJECTIVE}
+
+%{Software Engineer with 2+ years of experience in XXX, seeking full-time XXX roles.}
+
+
+%\end{rSection}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf SSN College of Engineering, Anna University(312217205021)}\hfill {Chennai,TN}\\ Bachelor of Technology in Information Technology;  CGPA: 8.80/10.0 \hfill {Sept. 2017 -- May 2021}
+
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills & {Python,C++,Java,C,SQL,Deep Learning,Computer Vision,Android Studio,IoT}
+\\
+Related Interests & {Software Development,Deep Learning, Computer Vision,Hackathons,Competitive Programming}
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Data Science Intern} \hfill June 2019 - Dec 2019\\
+Nokia Solutions and Networks \hfill \textit{Chennai, TN}\\
+    \resumeItemListStart
+      \resumeItem{\href{https://github.com/ngdeva99/Fault_Detection_FBBC_Assembly}{\color{black}}{\bf Video Analytics for Fault Recognition}}
+        
+        {Played a major role in automating the final check and quality assurance line systems by Working on large scale real time data for object detection and recognition to model the identify the faults in the products such as absence of screws in the manufacturing products and report it dynamically.}\\
+        {\bf Technologies Used :} {Tensorflow Object Detection API, OpenCV}
+        
+        
+        \resumeItem{\href{https://github.com/ngdeva99/Real-time-Multi-Digit-Detection-}{\color{black}}{\bf Sequence Tracking Mechanism for Industrial Screwing Process}}
+        {Successfully acheived the industrial level problem of Sequence tracking mechanism. The solution for the product defects due to mismatch of the sequence of the screwing process was pitched in with an ML based solution by tracking the sequence of the screwing process using Computer Vision and an user friendly reporting mechanism for the mismatch was created dynamically.}\\
+        {\bf Technologies Used :} {MNIST Dataset, OpenCV, Keras,PyQT5}
+        
+    \resumeItemListEnd
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{\href{https://github.com/ngdeva99/CleanCARE}{\color{black}}{CleanCare}} {An Automated Washroom Management System which can be useful for sensitive places like Hospitals.}
+\item \textbf{\href{https://github.com/ngdeva99/PocDoc}{\color{black}}{MediGO}} {A healthcare application that brings right care right at home. Developed using Android and Tensorflow.}
+\item \textbf{\href{https://github.com/ngdeva99/ShoppingEASY}{\color{black}}{ShoppingEasy}} {An application offering frictionless shopping experience for the customers.}
+\end{rSection} 
+
+\begin{rSection}{RESEARCH}
+\vspace{-1.25em}
+\item \textbf{\href{https://github.com/ngdeva99/MottaBOSS}{\color{black}}{MottaBoss}} {A speech identification system built to identify the person from speech using Recurrence Plots and CNN.}
+\item \textbf{\href{https://github.com/ngdeva99/ATPAD}{\color{black}}{ATPAD}} {Building a wearable device that acts as an aid for the Parkinson and Alzimer affected patients. Funded by the {\bf State Govt. of Tamil Nadu,India.}}
+
+\end{rSection} 
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Acheivements} 
+\begin{itemize}
+    \item 	{\bf 1st Runners up} {Lord Of The Codes corporate hackathon hosted by Ramco Systems.}{ January 2020}
+    \item	{\bf Special Mention Award} {for the Innovative idea for the social cause out of {\bf 250+} teams.}{ January 2020}
+    \item {\bf Winner of  Smart India Hackathon}{ MHRD, Govt of India, held at NIT Surathkal.}{ March 2019}
+    \item {\bf Merit Scholarship} {for Academic excellence, SSN College of Engineering.}{  December 2018}
+    \item {\bf Award} {for consistent performance in Computer Science, Class 12.}{  May 2017}
+    \item {\bf Rolling Shield}{ for Best All Round Student of the school excelling in Sports and Academics.}{ June 2015}
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curriculum} 
+\begin{itemize}
+    \item 
+Professional Cricketer, Footballer and an Athlete, Amateur Carnatic Violinist.
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}

@@ -1,0 +1,272 @@
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
+%
+%	Permission is hereby granted, free of charge, to any person obtaining a copy
+%	of this software and associated documentation files (the "Software"), to deal
+%	in the Software without restriction, including without limitation the rights
+%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%	copies of the Software, and to permit persons to whom the Software is
+%	furnished to do so, subject to the following conditions:
+%	
+%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+%	THE SOFTWARE.
+%	
+%
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT DEFINITION
+%----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
+\documentclass[a4paper,10.75pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Devanathan Nallur Gandamani} \\[7.5pt]
+\href{https://github.com/ngdeva99}{\raisebox{-0.05\height}\faGithub\ ngdeva99} \ $|$ \ 
+\href{https://linkedin.com/in/devanathan-n-g-83442115b/}{\raisebox{-0.05\height}\faLinkedin\ LinkedIn} \ $|$ \ 
+\href{https://ngdeva99.github.io}{\raisebox{-0.05\height}\faGlobe \ ngdeva99.github.io} \ $|$ \ 
+\href{mailto:dnallurg@ucsc.edu}{\raisebox{-0.05\height}\faEnvelope \ dnallurg@ucsc.edu} \ $|$ \ 
+\href{tel:+1-3417668004}{\raisebox{-0.05\height}\faMobile \ +1-(341)766-8004} \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Masters of Science, Computer Science and Engineering} & \hfill Sept 2023 -  \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] University of California, Santa Cruz 
+        % \hspace{87mm} CGPA - XX/4.0
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+{\href{https://drive.google.com/file/d/1jNZBTcnvTAmzkChQ2lCApObCrWKxl2IS/view?usp=sharing} { \color{black} \textbf{Bachelor of Technology, Information Technology}}}
+ & \hfill Sept 2017 - Apr 2021 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Sri Sivasubramaniya Nadar College of Engineering, Anna University.  
+         \hspace{45mm} CGPA - 8.94/10.00
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%Experience
+\section{Work Experience}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\href{https://drive.google.com/file/d/1FOVB_PnhJ4SQOGo86zs-UZ3Fke55xqpV/view?usp=sharing}
+{\color{black} Software Development Engineer, Samsung Electronics}} & \hfill Sept 2021 - August 2023 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Developed and resolved the subscription creation and renewal performance degradation during peak site traffic, by identifying the root cause and implementing a solution that improved throughput by 10X. 
+        \item [--] Identified the multiple points of failure of customer contract management for a subscription and proposed internalizing the contract data storage and management. Led and developed the design, development and testing of Samsung Care+ Integration and handling Fraud Disputes. Core founding team of Site Reliability Engineering in the organization.
+        \item[--] Tech Stack : Node.JS, PostgreSQL, RabbitMQ, ELK, Kubernetes, REST/SOAP API,  Microservices, AWS, OpenTelemetry, Jeager, Prometheus, Cockroach DB.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\href{https://drive.google.com/file/d/1IqbL-wf7AanCL2Svyly9zUn-YhG-SRvJ/view?usp=sharing} { \color{black} \textbf{Software Engineer Intern, Accolite Digital}}} & \hfill Jan 2021 - Apr 2021 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Built an end to end payments API working under the UPI team of Juspay (Client of Accolite) which integrated PSP through international payment gateways. Was the core developer of sendMoney and reqChkTxn API implementation which was deployed onto billions of transactional tuples. 
+        \item[--] Tech Stack : Haskell, Node.Js, PostgreSQL.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Deep Learning Intern, Nokia Solutions and Networks} & \hfill June 2019 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Developed an Image Classification Model for Fault Isolation and Detection to isolate faults in assembly line systems. Tech Stack: Tensorflow Object Detection API, OpenCV, Deep Learning, Keras.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\section{Projects}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+{\href{https://github.com/ngdeva99/CleanCARE/tree/master/CleanCare-master} { \color{black} {\bf CleanCare}}}\\[3.75pt]
+\multicolumn{2}{@{}X@{}}{An Automated Washroom Management System built for sensitive places like Hospitals enabling the life of the worker, supervisor and the general public better. Tech Stack : JAVA, XML, Android Studio, Arduino and Thingspeak.}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+{\href{https://devfolio.co/projects/medigo} { \color{black} {\bf MediGO}}} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{An application aimed at providing ON-THE-GO medical care services at the right place at the right time.} \\ {Tech Stack : Keras, Google TTS / STT, Java, Python, Firebase and Android Studio.}
+\end{tabularx}
+
+\section{Acheivements}
+       \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Employee of the Year / Quarter - Award for exceptional contributions and deliverables across the organization in Q1, Q2 and 2022 whole year.
+      \item[--] University Rank Holder - Special medal and award from Anna University for securing university rank.
+        \item[--] 1st Runners up Lord Of The Codes corporate hackathon hosted by Ramco Systems.        \item[--] Winner of Smart India Hackathon MHRD, Govt of India, held at NIT Surathkal.
+        \item[--] Merit Scholarship for Academic excellence, SSN College of Engineering.
+        \item[--] Rolling Shield for Best All Round Student of the school excelling in Sports and Academics.
+    \end{itemize}
+
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+\section{Skills}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Coding Languages :  Javascript, Python, Java, Haskell and C++.
+        \item[--] Technical Skills : Backend Development, Node.JS, Deep Learning, Computer Vision, Android Studio, Keras, Kubernetes, PostgreSQL, Microservices, OpenTelemetry, Firebase, ELK,  Arduino and Thingspeak.
+        \item[--] Talents          : State Level Cricketer and 100m and Long Jump Athelete and Footballer. Novice Violinist.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+
+
+
+% \section{Certifications \& Licenses}
+%        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+%         \item[--] SOLID Principles: Introducing Software Architecture \& Design &\hfill        {\href{https://www.udemy.com/certificate/UC-27f42189-e457-42c1-9866-9e64c1a7c166/} { \color{black}  Udemy - June, 2022}}
+%         \item[--] Mastering the System Design Interview &\hfill        {\href{https://www.udemy.com/certificate/UC-d56aa6dd-c5ac-4fa6-b397-af54414c7c27/} { \color{black}  Udemy - Mar, 2022}}
+%         \item[--] Deep Learning: Image Recognition &\hfill        {\href{https://www.linkedin.com/learning/certificates/2021c07521ab7093bf05a54e8cc16a63dc7fd8d23900f5dcb37b08febecd5780?trk=share_certificate} { \color{black}  LinkedIn - Feb, 2022}}
+%         \item[--] JavaScript Code Challenges & \hfill        {\href{https://www.linkedin.com/learning/certificates/ed79bff44e31c03ab24739beacdda277ce423a2f8991697894e3cd13ad00bde6?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BmVqVjYH1Qp6S9iKbs4YQ7Q%3D%3D} { \color{black}  LinkedIn - Feb, 2022}}
+%         \item[--] Deep Learning & \hfill DeepLearning.ai - Mar, 2020
+%         \item[--] Neural Networks and Deep Learning        &\hfill        {\href{https://www.coursera.org/account/accomplishments/verify/QYPBM54BPLEE} { \color{black}  Coursera - July, 2019}}
+%         \item[--] Machine Learning        &\hfill        {\href{https://www.coursera.org/account/accomplishments/verify/JUCGX8ESMEPK} { \color{black}  Coursera - June, 2019}}
+%         \item[--] Python for Computer Vision with OpenCV and Deep Learning & \hfill Udemy - June 2019
+%         \item[--] IEEE membership \hfill & Credential ID 95407743
+%          \item[--] SSN-ACM Computer Society member
+%     \end{itemize}
+
+% %Projects
+% \section{Volunteering \& Participation}
+%        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+%         \item[--] Event Coordinator of 'RedSun', an event organized by Rotary Club of in support of HIV affected kids. 
+%         \item[--] Volunteered for the cause of restoration of the areas of Southern Chennai and its outer district areas affected by the massive 2021 Chennai Floods. 
+%           \item[--] Google Developer Student Club - Android Developer
+%           \item[--] PROCODE - Mentor and Instructor of SSN Coding Community.
+%         \item[--] Volunteered in National Mathematics Day conducted by the Department of Mathematics, SSN College of Engineering.
+%         \item[--] Contributed & Participated in the Conclave of Cyber Security conducted by Comptia.
+%         \item[--] Contributed and Participated in the Workshop on OSINT Framework conducted by Cyber Security Working Group, SSN College of Engineering.
+%     \end{itemize}
+
+% \vfill
+
+\end{document}
